@@ -1,0 +1,260 @@
+{
+	"name": "DestinationDataset_hw7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataExplorer1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureDataExplorerTable",
+		"structure": [
+			{
+				"name": "BilltoAccountNumber",
+				"type": "String"
+			},
+			{
+				"name": "InvoiceDate",
+				"type": "String"
+			},
+			{
+				"name": "InvoiceNumber",
+				"type": "String"
+			},
+			{
+				"name": "StoreID",
+				"type": "String"
+			},
+			{
+				"name": "OriginalAmountDue",
+				"type": "String"
+			},
+			{
+				"name": "CurrentBalance",
+				"type": "String"
+			},
+			{
+				"name": "Payor",
+				"type": "String"
+			},
+			{
+				"name": "GroundTrackingIDPrefix",
+				"type": "String"
+			},
+			{
+				"name": "ExpressorGroundTrackingID",
+				"type": "String"
+			},
+			{
+				"name": "TransportationChargeAmount",
+				"type": "String"
+			},
+			{
+				"name": "NetChargeAmount",
+				"type": "String"
+			},
+			{
+				"name": "ServiceType",
+				"type": "String"
+			},
+			{
+				"name": "GroundService",
+				"type": "String"
+			},
+			{
+				"name": "ShipmentDate",
+				"type": "String"
+			},
+			{
+				"name": "PODDeliveryDate",
+				"type": "String"
+			},
+			{
+				"name": "PODDeliveryTime",
+				"type": "String"
+			},
+			{
+				"name": "PODServiceAreaCode",
+				"type": "String"
+			},
+			{
+				"name": "PODSignatureDescription",
+				"type": "String"
+			},
+			{
+				"name": "ActualWeightAmount",
+				"type": "String"
+			},
+			{
+				"name": "ActualWeightUnits",
+				"type": "String"
+			},
+			{
+				"name": "RatedWeightAmount",
+				"type": "String"
+			},
+			{
+				"name": "RatedWeightUnits",
+				"type": "String"
+			},
+			{
+				"name": "NumberofPieces",
+				"type": "String"
+			},
+			{
+				"name": "BundleNumber",
+				"type": "String"
+			},
+			{
+				"name": "MeterNumber",
+				"type": "String"
+			},
+			{
+				"name": "RecipientName",
+				"type": "String"
+			},
+			{
+				"name": "RecipientCompany",
+				"type": "String"
+			},
+			{
+				"name": "RecipientAddressLine1",
+				"type": "String"
+			},
+			{
+				"name": "RecipientAddressLine2",
+				"type": "String"
+			},
+			{
+				"name": "RecipientCity",
+				"type": "String"
+			},
+			{
+				"name": "RecipientState",
+				"type": "String"
+			},
+			{
+				"name": "RecipientZipCode",
+				"type": "String"
+			},
+			{
+				"name": "ShipperCompany",
+				"type": "String"
+			},
+			{
+				"name": "ShipperName",
+				"type": "String"
+			},
+			{
+				"name": "ShipperAddressLine1",
+				"type": "String"
+			},
+			{
+				"name": "ShipperAddressLine2",
+				"type": "String"
+			},
+			{
+				"name": "ShipperCity",
+				"type": "String"
+			},
+			{
+				"name": "ShipperState",
+				"type": "String"
+			},
+			{
+				"name": "ShipperZipCode",
+				"type": "String"
+			},
+			{
+				"name": "OriginalCustomerReference",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRef_2",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRef_3_PONumber",
+				"type": "String"
+			},
+			{
+				"name": "OriginalDepartment",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedCustomerReference",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedRef_2",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedRef_3_PONumber",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedDepartment",
+				"type": "String"
+			},
+			{
+				"name": "RMA",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRecipientAddressLine1",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRecipientAddressLine2",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRecipientCity",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRecipientState",
+				"type": "String"
+			},
+			{
+				"name": "OriginalRecipientZipCode",
+				"type": "String"
+			},
+			{
+				"name": "ZoneCode",
+				"type": "String"
+			},
+			{
+				"name": "EntryDate",
+				"type": "String"
+			},
+			{
+				"name": "EntryNumber",
+				"type": "String"
+			},
+			{
+				"name": "MultiweightNumber",
+				"type": "String"
+			},
+			{
+				"name": "MultiweightTotalMultiweightUnits",
+				"type": "String"
+			},
+			{
+				"name": "MultiweightTotalMultiweightWeight",
+				"type": "String"
+			},
+			{
+				"name": "MultiweightTotalShipmentChargeAmount",
+				"type": "String"
+			},
+			{
+				"name": "MultiweightTotalShipmentWeight",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"table": "testsample"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

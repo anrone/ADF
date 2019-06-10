@@ -1,0 +1,544 @@
+{
+	"name": "TestFedExAllColumns",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sample/fedex (1)",
+				"container": "adlsvscm"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Bill to Account Number",
+				"type": "String"
+			},
+			{
+				"name": "Invoice Date",
+				"type": "String"
+			},
+			{
+				"name": "Invoice Number",
+				"type": "String"
+			},
+			{
+				"name": "Store ID",
+				"type": "String"
+			},
+			{
+				"name": "Original Amount Due",
+				"type": "String"
+			},
+			{
+				"name": "Current Balance",
+				"type": "String"
+			},
+			{
+				"name": "Payor",
+				"type": "String"
+			},
+			{
+				"name": "Ground Tracking ID Prefix",
+				"type": "String"
+			},
+			{
+				"name": "Express or Ground Tracking ID",
+				"type": "String"
+			},
+			{
+				"name": "Transportation Charge Amount",
+				"type": "String"
+			},
+			{
+				"name": "Net Charge Amount",
+				"type": "String"
+			},
+			{
+				"name": "Service Type",
+				"type": "String"
+			},
+			{
+				"name": "Ground Service",
+				"type": "String"
+			},
+			{
+				"name": "Shipment Date",
+				"type": "String"
+			},
+			{
+				"name": "POD Delivery Date",
+				"type": "String"
+			},
+			{
+				"name": "POD Delivery Time",
+				"type": "String"
+			},
+			{
+				"name": "POD Service Area Code",
+				"type": "String"
+			},
+			{
+				"name": "POD Signature Description",
+				"type": "String"
+			},
+			{
+				"name": "Actual Weight Amount",
+				"type": "String"
+			},
+			{
+				"name": "Actual Weight Units",
+				"type": "String"
+			},
+			{
+				"name": "Rated Weight Amount",
+				"type": "String"
+			},
+			{
+				"name": "Rated Weight Units",
+				"type": "String"
+			},
+			{
+				"name": "Number of Pieces",
+				"type": "String"
+			},
+			{
+				"name": "Bundle Number",
+				"type": "String"
+			},
+			{
+				"name": "Meter Number",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Name",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Company",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Address Line 1",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Address Line 2",
+				"type": "String"
+			},
+			{
+				"name": "Recipient City",
+				"type": "String"
+			},
+			{
+				"name": "Recipient State",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Zip Code",
+				"type": "String"
+			},
+			{
+				"name": "Recipient Country/Territory",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Company",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Name",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Address Line 1",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Address Line 2",
+				"type": "String"
+			},
+			{
+				"name": "Shipper City",
+				"type": "String"
+			},
+			{
+				"name": "Shipper State",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Zip Code",
+				"type": "String"
+			},
+			{
+				"name": "Shipper Country/Territory",
+				"type": "String"
+			},
+			{
+				"name": "Original Customer Reference",
+				"type": "String"
+			},
+			{
+				"name": "Original Ref#2",
+				"type": "String"
+			},
+			{
+				"name": "Original Ref#3/PO Number",
+				"type": "String"
+			},
+			{
+				"name": "Original Department Reference Description",
+				"type": "String"
+			},
+			{
+				"name": "Updated Customer Reference",
+				"type": "String"
+			},
+			{
+				"name": "Updated Ref#2",
+				"type": "String"
+			},
+			{
+				"name": "Updated Ref#3/PO Number",
+				"type": "String"
+			},
+			{
+				"name": "Updated Department Reference Description",
+				"type": "String"
+			},
+			{
+				"name": "RMA#",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient Address Line 1",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient Address Line 2",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient City",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient State",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient Zip Code",
+				"type": "String"
+			},
+			{
+				"name": "Original Recipient Country/Territory",
+				"type": "String"
+			},
+			{
+				"name": "Zone Code",
+				"type": "String"
+			},
+			{
+				"name": "Entry Date",
+				"type": "String"
+			},
+			{
+				"name": "Entry Number",
+				"type": "String"
+			},
+			{
+				"name": "Customs Value",
+				"type": "String"
+			},
+			{
+				"name": "Customs Value Currency Code",
+				"type": "String"
+			},
+			{
+				"name": "Declared Value",
+				"type": "String"
+			},
+			{
+				"name": "Declared Value Currency Code",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Description63",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Country/Territory Code64",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Description65",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Country/Territory Code66",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Description67",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Country/Territory Code68",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Description69",
+				"type": "String"
+			},
+			{
+				"name": "Commodity Country/Territory Code70",
+				"type": "String"
+			},
+			{
+				"name": "Currency Conversion Date",
+				"type": "String"
+			},
+			{
+				"name": "Currency Conversion Rate",
+				"type": "String"
+			},
+			{
+				"name": "Multiweight Number",
+				"type": "String"
+			},
+			{
+				"name": "Multiweight Total Multiweight Units",
+				"type": "String"
+			},
+			{
+				"name": "Multiweight Total Multiweight Weight",
+				"type": "String"
+			},
+			{
+				"name": "Multiweight Total Shipment Charge Amount",
+				"type": "String"
+			},
+			{
+				"name": "Multiweight Total Shipment Weight",
+				"type": "String"
+			},
+			{
+				"name": "Ground Tracking ID Address Correction Discount Charge Amount",
+				"type": "String"
+			},
+			{
+				"name": "Ground Tracking ID Address Correction Gross Charge Amount",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description80",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount81",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description82",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount83",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description84",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount85",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description86",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount87",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description88",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount89",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description90",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount91",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description92",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount93",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description94",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount95",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description96",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount97",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description98",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount99",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description100",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount101",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description102",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount103",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description104",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount105",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description106",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount107",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description108",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount109",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description110",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount111",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description112",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount113",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description114",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount115",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description116",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount117",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description118",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount119",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description120",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount121",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description122",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount123",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description124",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount125",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description126",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount127",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Description128",
+				"type": "String"
+			},
+			{
+				"name": "Tracking ID Charge Amount129",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
