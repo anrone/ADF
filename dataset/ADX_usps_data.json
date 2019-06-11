@@ -1,5 +1,5 @@
 {
-	"name": "usps_data",
+	"name": "ADX_usps_data",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataExplorer1",

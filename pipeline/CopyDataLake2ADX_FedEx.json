@@ -621,7 +621,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "usps_data",
+						"referenceName": "ADX_usps_data",
 						"type": "DatasetReference"
 					}
 				]
