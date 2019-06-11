@@ -176,10 +176,6 @@
 				"type": "Double"
 			},
 			{
-				"name": "RegisteredMail",
-				"type": "Double"
-			},
-			{
 				"name": "SignaturewithRestrictedDelivery",
 				"type": "Double"
 			},

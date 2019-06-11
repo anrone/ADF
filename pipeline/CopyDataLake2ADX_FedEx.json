@@ -423,15 +423,6 @@
 							},
 							{
 								"source": {
-									"name": "RegisteredMail",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RegisteredMail"
-								}
-							},
-							{
-								"source": {
 									"name": "SignaturewithRestrictedDelivery",
 									"type": "String"
 								},
