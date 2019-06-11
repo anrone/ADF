@@ -50,6 +50,62 @@
 			{
 				"name": "PartnerPostagePaymentAccountBalance",
 				"type": "Double"
+			},
+			{
+				"name": "ShipperName",
+				"type": "String"
+			},
+			{
+				"name": "ShipperAccountNumber",
+				"type": "Int64"
+			},
+			{
+				"name": "ShipperBillingPlan",
+				"type": "String"
+			},
+			{
+				"name": "ShipperPostageAccountPaymentMethod",
+				"type": "String"
+			},
+			{
+				"name": "ShipperRatePlan",
+				"type": "String"
+			},
+			{
+				"name": "ShipperRate",
+				"type": "Double"
+			},
+			{
+				"name": "ShipperPostagePaymentAccountBalance",
+				"type": "Double"
+			},
+			{
+				"name": "LabelFee",
+				"type": "String"
+			},
+			{
+				"name": "SalesPerson",
+				"type": "String"
+			},
+			{
+				"name": "Meternumber",
+				"type": "Int32"
+			},
+			{
+				"name": "WholesaleBuyrate",
+				"type": "Double"
+			},
+			{
+				"name": "ParcelTrackingNumber",
+				"type": "Decimal"
+			},
+			{
+				"name": "Weight",
+				"type": "Int32"
+			},
+			{
+				"name": "Zone",
+				"type": "Int32"
 			}
 		],
 		"typeProperties": {
