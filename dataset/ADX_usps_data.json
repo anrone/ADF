@@ -170,30 +170,6 @@
 			{
 				"name": "RefundDenialReason",
 				"type": "String"
-			},
-			{
-				"name": "RegisteredMail",
-				"type": "Double"
-			},
-			{
-				"name": "SignaturewithRestrictedDelivery",
-				"type": "Double"
-			},
-			{
-				"name": "CollectOnDelivery",
-				"type": "Double"
-			},
-			{
-				"name": "AdultSignatureRequired",
-				"type": "Double"
-			},
-			{
-				"name": "ReturnReceiptforMerchandise",
-				"type": "Double"
-			},
-			{
-				"name": "DeliveryBy1030",
-				"type": "Double"
 			}
 		],
 		"typeProperties": {
