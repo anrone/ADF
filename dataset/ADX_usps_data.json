@@ -172,10 +172,6 @@
 				"type": "String"
 			},
 			{
-				"name": "PB Invoices Doterra ShipRate",
-				"type": "Double"
-			},
-			{
 				"name": "Doterra Invoices PB Royalty",
 				"type": "Double"
 			},
