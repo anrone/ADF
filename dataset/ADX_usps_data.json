@@ -10,6 +10,14 @@
 			{
 				"name": "RecordType",
 				"type": "String"
+			},
+			{
+				"name": "TransactionID",
+				"type": "String"
+			},
+			{
+				"name": "TransactionDateTime",
+				"type": "TimeSpan"
 			}
 		],
 		"typeProperties": {
