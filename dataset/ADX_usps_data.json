@@ -17,7 +17,7 @@
 			},
 			{
 				"name": "TransactionDateTime",
-				"type": "String"
+				"type": "DateTime"
 			}
 		],
 		"typeProperties": {
