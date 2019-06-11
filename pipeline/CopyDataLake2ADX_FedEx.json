@@ -1,5 +1,5 @@
 {
-	"name": "CopyDataLake2ADX",
+	"name": "CopyDataLake2ADX_FedEx",
 	"properties": {
 		"activities": [
 			{
