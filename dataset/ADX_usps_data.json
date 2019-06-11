@@ -212,10 +212,6 @@
 				"type": "Double"
 			},
 			{
-				"name": "RegisteredMailwithRestrictedDelivery",
-				"type": "Double"
-			},
-			{
 				"name": "CollectOnDeliverywithRestrictedDelivery",
 				"type": "Double"
 			},
