@@ -414,15 +414,6 @@
 							},
 							{
 								"source": {
-									"name": "PB Invoices Doterra ShipRate",
-									"type": "String"
-								},
-								"sink": {
-									"name": "PB Invoices Doterra ShipRate"
-								}
-							},
-							{
-								"source": {
 									"name": "Doterra Invoices PB Royalty",
 									"type": "String"
 								},
