@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_hw7",
+				"name": "Copy_USPS_2_ADX",
 				"type": "Copy",
 				"policy": {
 					"timeout": "7.00:00:00",
@@ -45,304 +45,106 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "Bill to Account Number",
+									"name": "RecordType",
 									"type": "String"
 								},
 								"sink": {
-									"name": "BilltoAccountNumber"
+									"name": "RecordType"
 								}
 							},
 							{
 								"source": {
-									"name": "Invoice Date",
+									"name": "TransactionID",
 									"type": "String"
 								},
 								"sink": {
-									"name": "InvoiceDate"
+									"name": "TransactionID"
 								}
 							},
 							{
 								"source": {
-									"name": "Invoice Number",
+									"name": "TransactionDateTime",
 									"type": "String"
 								},
 								"sink": {
-									"name": "InvoiceNumber"
+									"name": "TransactionDateTime"
 								}
 							},
 							{
 								"source": {
-									"name": "Store ID",
+									"name": "TransactionType",
 									"type": "String"
 								},
 								"sink": {
-									"name": "StoreID"
+									"name": "TransactionType"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Amount Due",
+									"name": "PartnerName",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalAmountDue"
+									"name": "PartnerName"
 								}
 							},
 							{
 								"source": {
-									"name": "Current Balance",
+									"name": "PartnerAccountNumber",
 									"type": "String"
 								},
 								"sink": {
-									"name": "CurrentBalance"
+									"name": "PartnerAccountNumber"
 								}
 							},
 							{
 								"source": {
-									"name": "Payor",
+									"name": "PartnerBillingPlan",
 									"type": "String"
 								},
 								"sink": {
-									"name": "Payor"
+									"name": "PartnerBillingPlan"
 								}
 							},
 							{
 								"source": {
-									"name": "Ground Tracking ID Prefix",
+									"name": "PartnerPostageAccountPaymentMethod",
 									"type": "String"
 								},
 								"sink": {
-									"name": "GroundTrackingIDPrefix"
+									"name": "PartnerPostageAccountPaymentMethod"
 								}
 							},
 							{
 								"source": {
-									"name": "Express or Ground Tracking ID",
+									"name": "PartnerIntegratorRatePlan",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ExpressorGroundTrackingID"
+									"name": "PartnerIntegratorRatePlan"
 								}
 							},
 							{
 								"source": {
-									"name": "Transportation Charge Amount",
+									"name": "PartnerIntegratorRate",
 									"type": "String"
 								},
 								"sink": {
-									"name": "TransportationChargeAmount"
+									"name": "PartnerIntegratorRate"
 								}
 							},
 							{
 								"source": {
-									"name": "Net Charge Amount",
+									"name": "PartnerPostagePaymentAccountBalance",
 									"type": "String"
 								},
 								"sink": {
-									"name": "NetChargeAmount"
+									"name": "PartnerPostagePaymentAccountBalance"
 								}
 							},
 							{
 								"source": {
-									"name": "Service Type",
-									"type": "String"
-								},
-								"sink": {
-									"name": "ServiceType"
-								}
-							},
-							{
-								"source": {
-									"name": "Ground Service",
-									"type": "String"
-								},
-								"sink": {
-									"name": "GroundService"
-								}
-							},
-							{
-								"source": {
-									"name": "Shipment Date",
-									"type": "String"
-								},
-								"sink": {
-									"name": "ShipmentDate"
-								}
-							},
-							{
-								"source": {
-									"name": "POD Delivery Date",
-									"type": "String"
-								},
-								"sink": {
-									"name": "PODDeliveryDate"
-								}
-							},
-							{
-								"source": {
-									"name": "POD Delivery Time",
-									"type": "String"
-								},
-								"sink": {
-									"name": "PODDeliveryTime"
-								}
-							},
-							{
-								"source": {
-									"name": "POD Service Area Code",
-									"type": "String"
-								},
-								"sink": {
-									"name": "PODServiceAreaCode"
-								}
-							},
-							{
-								"source": {
-									"name": "POD Signature Description",
-									"type": "String"
-								},
-								"sink": {
-									"name": "PODSignatureDescription"
-								}
-							},
-							{
-								"source": {
-									"name": "Actual Weight Amount",
-									"type": "String"
-								},
-								"sink": {
-									"name": "ActualWeightAmount"
-								}
-							},
-							{
-								"source": {
-									"name": "Actual Weight Units",
-									"type": "String"
-								},
-								"sink": {
-									"name": "ActualWeightUnits"
-								}
-							},
-							{
-								"source": {
-									"name": "Rated Weight Amount",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RatedWeightAmount"
-								}
-							},
-							{
-								"source": {
-									"name": "Rated Weight Units",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RatedWeightUnits"
-								}
-							},
-							{
-								"source": {
-									"name": "Number of Pieces",
-									"type": "String"
-								},
-								"sink": {
-									"name": "NumberofPieces"
-								}
-							},
-							{
-								"source": {
-									"name": "Bundle Number",
-									"type": "String"
-								},
-								"sink": {
-									"name": "BundleNumber"
-								}
-							},
-							{
-								"source": {
-									"name": "Meter Number",
-									"type": "String"
-								},
-								"sink": {
-									"name": "MeterNumber"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient Name",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientName"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient Company",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientCompany"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient Address Line 1",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientAddressLine1"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient Address Line 2",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientAddressLine2"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient City",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientCity"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient State",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientState"
-								}
-							},
-							{
-								"source": {
-									"name": "Recipient Zip Code",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RecipientZipCode"
-								}
-							},
-							{
-								"source": {
-									"name": "Shipper Company",
-									"type": "String"
-								},
-								"sink": {
-									"name": "ShipperCompany"
-								}
-							},
-							{
-								"source": {
-									"name": "Shipper Name",
+									"name": "ShipperName",
 									"type": "String"
 								},
 								"sink": {
@@ -351,245 +153,461 @@
 							},
 							{
 								"source": {
-									"name": "Shipper Address Line 1",
+									"name": "ShipperAccountNumber",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ShipperAddressLine1"
+									"name": "ShipperAccountNumber"
 								}
 							},
 							{
 								"source": {
-									"name": "Shipper Address Line 2",
+									"name": "ShipperBillingPlan",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ShipperAddressLine2"
+									"name": "ShipperBillingPlan"
 								}
 							},
 							{
 								"source": {
-									"name": "Shipper City",
+									"name": "ShipperPostageAccountPaymentMethod",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ShipperCity"
+									"name": "ShipperPostageAccountPaymentMethod"
 								}
 							},
 							{
 								"source": {
-									"name": "Shipper State",
+									"name": "ShipperRatePlan",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ShipperState"
+									"name": "ShipperRatePlan"
 								}
 							},
 							{
 								"source": {
-									"name": "Shipper Zip Code",
+									"name": "ShipperRate",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ShipperZipCode"
+									"name": "ShipperRate"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Customer Reference",
+									"name": "ShipperPostagePaymentAccountBalance",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalCustomerReference"
+									"name": "ShipperPostagePaymentAccountBalance"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Ref#2",
+									"name": "LabelFee",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRef_2"
+									"name": "LabelFee"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Ref#3/PO Number",
+									"name": "SalesPerson",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRef_3_PONumber"
+									"name": "SalesPerson"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Department Reference Description",
+									"name": "Meternumber",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalDepartment"
+									"name": "Meternumber"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Customer Reference",
+									"name": "WholesaleBuyrate",
 									"type": "String"
 								},
 								"sink": {
-									"name": "UpdatedCustomerReference"
+									"name": "WholesaleBuyrate"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Ref#2",
+									"name": "ParcelTrackingNumber",
 									"type": "String"
 								},
 								"sink": {
-									"name": "UpdatedRef_2"
+									"name": "ParcelTrackingNumber"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Ref#3/PO Number",
+									"name": "Weight",
 									"type": "String"
 								},
 								"sink": {
-									"name": "UpdatedRef_3_PONumber"
+									"name": "Weight"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Department Reference Description",
+									"name": "Zone",
 									"type": "String"
 								},
 								"sink": {
-									"name": "UpdatedDepartment"
+									"name": "Zone"
 								}
 							},
 							{
 								"source": {
-									"name": "RMA#",
+									"name": "PackageLength",
 									"type": "String"
 								},
 								"sink": {
-									"name": "RMA"
+									"name": "PackageLength"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Recipient Address Line 1",
+									"name": "PackageWidth",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRecipientAddressLine1"
+									"name": "PackageWidth"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Recipient Address Line 2",
+									"name": "PackageHeight",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRecipientAddressLine2"
+									"name": "PackageHeight"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Recipient City",
+									"name": "PackageTypeIndicatorIsCubic",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRecipientCity"
+									"name": "PackageTypeIndicatorIsCubic"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Recipient State",
+									"name": "PackageType",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRecipientState"
+									"name": "PackageType"
 								}
 							},
 							{
 								"source": {
-									"name": "Original Recipient Zip Code",
+									"name": "MailClass",
 									"type": "String"
 								},
 								"sink": {
-									"name": "OriginalRecipientZipCode"
+									"name": "MailClass"
 								}
 							},
 							{
 								"source": {
-									"name": "Zone Code",
+									"name": "InternationalCountryPriceGroup",
 									"type": "String"
 								},
 								"sink": {
-									"name": "ZoneCode"
+									"name": "InternationalCountryPriceGroup"
 								}
 							},
 							{
 								"source": {
-									"name": "Entry Date",
+									"name": "OriginationAddress",
 									"type": "String"
 								},
 								"sink": {
-									"name": "EntryDate"
+									"name": "OriginationAddress"
 								}
 							},
 							{
 								"source": {
-									"name": "Entry Number",
+									"name": "OriginZIP",
 									"type": "String"
 								},
 								"sink": {
-									"name": "EntryNumber"
+									"name": "OriginZIP"
 								}
 							},
 							{
 								"source": {
-									"name": "Multiweight Number",
+									"name": "DestinationAddress",
 									"type": "String"
 								},
 								"sink": {
-									"name": "MultiweightNumber"
+									"name": "DestinationAddress"
 								}
 							},
 							{
 								"source": {
-									"name": "Multiweight Total Multiweight Units",
+									"name": "DestinationZIP",
 									"type": "String"
 								},
 								"sink": {
-									"name": "MultiweightTotalMultiweightUnits"
+									"name": "DestinationZIP"
 								}
 							},
 							{
 								"source": {
-									"name": "Multiweight Total Multiweight Weight",
+									"name": "DestinationCountry",
 									"type": "String"
 								},
 								"sink": {
-									"name": "MultiweightTotalMultiweightWeight"
+									"name": "DestinationCountry"
 								}
 							},
 							{
 								"source": {
-									"name": "Multiweight Total Shipment Charge Amount",
+									"name": "PostageAcctDepositAmount",
 									"type": "String"
 								},
 								"sink": {
-									"name": "MultiweightTotalShipmentChargeAmount"
+									"name": "PostageAcctDepositAmount"
 								}
 							},
 							{
 								"source": {
-									"name": "Multiweight Total Shipment Weight",
+									"name": "CreditCardFee",
 									"type": "String"
 								},
 								"sink": {
-									"name": "MultiweightTotalShipmentWeight"
+									"name": "CreditCardFee"
+								}
+							},
+							{
+								"source": {
+									"name": "RefundStatus",
+									"type": "String"
+								},
+								"sink": {
+									"name": "RefundStatus"
+								}
+							},
+							{
+								"source": {
+									"name": "RefundDenialReason",
+									"type": "String"
+								},
+								"sink": {
+									"name": "RefundDenialReason"
+								}
+							},
+							{
+								"source": {
+									"name": "PB Invoices Doterra ShipRate",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PB Invoices Doterra ShipRate"
+								}
+							},
+							{
+								"source": {
+									"name": "Doterra Invoices PB Royalty",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Doterra Invoices PB Royalty"
+								}
+							},
+							{
+								"source": {
+									"name": "Doterra invoices PB",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Doterra invoices PB"
+								}
+							},
+							{
+								"source": {
+									"name": "Parcel Partners Invoices PB",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Parcel Partners Invoices PB"
+								}
+							},
+							{
+								"source": {
+									"name": "RegisteredMailwithInsurance",
+									"type": "String"
+								},
+								"sink": {
+									"name": "RegisteredMailwithInsurance"
+								}
+							},
+							{
+								"source": {
+									"name": "CertifiedMailwithRestrictedDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CertifiedMailwithRestrictedDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "RegisteredMail",
+									"type": "String"
+								},
+								"sink": {
+									"name": "RegisteredMail"
+								}
+							},
+							{
+								"source": {
+									"name": "SignaturewithRestrictedDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "SignaturewithRestrictedDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "CollectOnDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CollectOnDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "AdultSignatureRequired",
+									"type": "String"
+								},
+								"sink": {
+									"name": "AdultSignatureRequired"
+								}
+							},
+							{
+								"source": {
+									"name": "ReturnReceiptforMerchandise",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ReturnReceiptforMerchandise"
+								}
+							},
+							{
+								"source": {
+									"name": "DeliveryBy1030",
+									"type": "String"
+								},
+								"sink": {
+									"name": "DeliveryBy1030"
+								}
+							},
+							{
+								"source": {
+									"name": "ElectronicReturnReceipt",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ElectronicReturnReceipt"
+								}
+							},
+							{
+								"source": {
+									"name": "InsuredMail",
+									"type": "String"
+								},
+								"sink": {
+									"name": "InsuredMail"
+								}
+							},
+							{
+								"source": {
+									"name": "InsuredMailwithRestrictedDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "InsuredMailwithRestrictedDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "RegisteredMailwithRestrictedDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "RegisteredMailwithRestrictedDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "CollectOnDeliverywithRestrictedDelivery",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CollectOnDeliverywithRestrictedDelivery"
+								}
+							},
+							{
+								"source": {
+									"name": "CertifiedMail",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CertifiedMail"
+								}
+							},
+							{
+								"source": {
+									"name": "SignatureConfirmation",
+									"type": "String"
+								},
+								"sink": {
+									"name": "SignatureConfirmation"
+								}
+							},
+							{
+								"source": {
+									"name": "SpecialHandlingFragile",
+									"type": "String"
+								},
+								"sink": {
+									"name": "SpecialHandlingFragile"
+								}
+							},
+							{
+								"source": {
+									"name": "CertifiedMailwithAdultSignature",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CertifiedMailwithAdultSignature"
+								}
+							},
+							{
+								"source": {
+									"name": "ReturnReceipt",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ReturnReceipt"
 								}
 							}
 						]
@@ -597,13 +615,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "TestFedExAllColumns",
+						"referenceName": "USPSDataset",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_hw7",
+						"referenceName": "usps_data",
 						"type": "DatasetReference"
 					}
 				]
