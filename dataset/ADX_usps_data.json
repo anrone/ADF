@@ -173,7 +173,7 @@
 			},
 			{
 				"name": "PB Invoices Doterra ShipRate",
-				"type": "Double"
+				"type": "String"
 			}
 		],
 		"typeProperties": {
