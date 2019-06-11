@@ -1,5 +1,5 @@
 {
-	"name": "USPSDataset",
+	"name": "Source_USPSDataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
