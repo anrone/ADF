@@ -1,0 +1,276 @@
+{
+	"name": "USPSDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Doterra_Invoice_Transactions_20180901.csv",
+				"folderPath": "sample/usps/usps",
+				"container": "adlsvscm"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "RecordType",
+				"type": "String"
+			},
+			{
+				"name": "TransactionID",
+				"type": "String"
+			},
+			{
+				"name": "TransactionDateTime",
+				"type": "String"
+			},
+			{
+				"name": "TransactionType",
+				"type": "String"
+			},
+			{
+				"name": "PartnerName",
+				"type": "String"
+			},
+			{
+				"name": "PartnerAccountNumber",
+				"type": "String"
+			},
+			{
+				"name": "PartnerBillingPlan",
+				"type": "String"
+			},
+			{
+				"name": "PartnerPostageAccountPaymentMethod",
+				"type": "String"
+			},
+			{
+				"name": "PartnerIntegratorRatePlan",
+				"type": "String"
+			},
+			{
+				"name": "PartnerIntegratorRate",
+				"type": "String"
+			},
+			{
+				"name": "PartnerPostagePaymentAccountBalance",
+				"type": "String"
+			},
+			{
+				"name": "ShipperName",
+				"type": "String"
+			},
+			{
+				"name": "ShipperAccountNumber",
+				"type": "String"
+			},
+			{
+				"name": "ShipperBillingPlan",
+				"type": "String"
+			},
+			{
+				"name": "ShipperPostageAccountPaymentMethod",
+				"type": "String"
+			},
+			{
+				"name": "ShipperRatePlan",
+				"type": "String"
+			},
+			{
+				"name": "ShipperRate",
+				"type": "String"
+			},
+			{
+				"name": "ShipperPostagePaymentAccountBalance",
+				"type": "String"
+			},
+			{
+				"name": "LabelFee",
+				"type": "String"
+			},
+			{
+				"name": "SalesPerson",
+				"type": "String"
+			},
+			{
+				"name": "Meternumber",
+				"type": "String"
+			},
+			{
+				"name": "WholesaleBuyrate",
+				"type": "String"
+			},
+			{
+				"name": "ParcelTrackingNumber",
+				"type": "String"
+			},
+			{
+				"name": "Weight",
+				"type": "String"
+			},
+			{
+				"name": "Zone",
+				"type": "String"
+			},
+			{
+				"name": "PackageLength",
+				"type": "String"
+			},
+			{
+				"name": "PackageWidth",
+				"type": "String"
+			},
+			{
+				"name": "PackageHeight",
+				"type": "String"
+			},
+			{
+				"name": "PackageTypeIndicatorIsCubic",
+				"type": "String"
+			},
+			{
+				"name": "PackageType",
+				"type": "String"
+			},
+			{
+				"name": "MailClass",
+				"type": "String"
+			},
+			{
+				"name": "InternationalCountryPriceGroup",
+				"type": "String"
+			},
+			{
+				"name": "OriginationAddress",
+				"type": "String"
+			},
+			{
+				"name": "OriginZIP",
+				"type": "String"
+			},
+			{
+				"name": "DestinationAddress",
+				"type": "String"
+			},
+			{
+				"name": "DestinationZIP",
+				"type": "String"
+			},
+			{
+				"name": "DestinationCountry",
+				"type": "String"
+			},
+			{
+				"name": "PostageAcctDepositAmount",
+				"type": "String"
+			},
+			{
+				"name": "CreditCardFee",
+				"type": "String"
+			},
+			{
+				"name": "RefundStatus",
+				"type": "String"
+			},
+			{
+				"name": "RefundDenialReason",
+				"type": "String"
+			},
+			{
+				"name": "PB Invoices Doterra ShipRate",
+				"type": "String"
+			},
+			{
+				"name": "Doterra Invoices PB Royalty",
+				"type": "String"
+			},
+			{
+				"name": "Doterra invoices PB",
+				"type": "String"
+			},
+			{
+				"name": "Parcel Partners Invoices PB",
+				"type": "String"
+			},
+			{
+				"name": "RegisteredMailwithInsurance",
+				"type": "String"
+			},
+			{
+				"name": "CertifiedMailwithRestrictedDelivery",
+				"type": "String"
+			},
+			{
+				"name": "RegisteredMail",
+				"type": "String"
+			},
+			{
+				"name": "SignaturewithRestrictedDelivery",
+				"type": "String"
+			},
+			{
+				"name": "CollectOnDelivery",
+				"type": "String"
+			},
+			{
+				"name": "AdultSignatureRequired",
+				"type": "String"
+			},
+			{
+				"name": "ReturnReceiptforMerchandise",
+				"type": "String"
+			},
+			{
+				"name": "DeliveryBy1030",
+				"type": "String"
+			},
+			{
+				"name": "ElectronicReturnReceipt",
+				"type": "String"
+			},
+			{
+				"name": "InsuredMail",
+				"type": "String"
+			},
+			{
+				"name": "InsuredMailwithRestrictedDelivery",
+				"type": "String"
+			},
+			{
+				"name": "RegisteredMailwithRestrictedDelivery",
+				"type": "String"
+			},
+			{
+				"name": "CollectOnDeliverywithRestrictedDelivery",
+				"type": "String"
+			},
+			{
+				"name": "CertifiedMail",
+				"type": "String"
+			},
+			{
+				"name": "SignatureConfirmation",
+				"type": "String"
+			},
+			{
+				"name": "SpecialHandlingFragile",
+				"type": "String"
+			},
+			{
+				"name": "CertifiedMailwithAdultSignature",
+				"type": "String"
+			},
+			{
+				"name": "ReturnReceipt",
+				"type": "String"
+			}
+		]
+	}
+}
