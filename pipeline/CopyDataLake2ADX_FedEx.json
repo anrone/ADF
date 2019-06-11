@@ -423,24 +423,6 @@
 							},
 							{
 								"source": {
-									"name": "RegisteredMailwithInsurance",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RegisteredMailwithInsurance"
-								}
-							},
-							{
-								"source": {
-									"name": "CertifiedMailwithRestrictedDelivery",
-									"type": "String"
-								},
-								"sink": {
-									"name": "CertifiedMailwithRestrictedDelivery"
-								}
-							},
-							{
-								"source": {
 									"name": "RegisteredMail",
 									"type": "String"
 								},
@@ -518,15 +500,6 @@
 								},
 								"sink": {
 									"name": "InsuredMailwithRestrictedDelivery"
-								}
-							},
-							{
-								"source": {
-									"name": "RegisteredMailwithRestrictedDelivery",
-									"type": "String"
-								},
-								"sink": {
-									"name": "RegisteredMailwithRestrictedDelivery"
 								}
 							},
 							{
