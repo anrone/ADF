@@ -414,24 +414,6 @@
 							},
 							{
 								"source": {
-									"name": "Doterra Invoices PB Royalty",
-									"type": "String"
-								},
-								"sink": {
-									"name": "Doterra Invoices PB Royalty"
-								}
-							},
-							{
-								"source": {
-									"name": "Doterra invoices PB",
-									"type": "String"
-								},
-								"sink": {
-									"name": "Doterra invoices PB"
-								}
-							},
-							{
-								"source": {
 									"name": "Parcel Partners Invoices PB",
 									"type": "String"
 								},

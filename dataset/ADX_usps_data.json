@@ -172,14 +172,6 @@
 				"type": "String"
 			},
 			{
-				"name": "Doterra Invoices PB Royalty",
-				"type": "Double"
-			},
-			{
-				"name": "Doterra invoices PB",
-				"type": "Double"
-			},
-			{
 				"name": "Parcel Partners Invoices PB",
 				"type": "Double"
 			},
