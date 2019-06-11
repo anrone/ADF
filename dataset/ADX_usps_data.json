@@ -18,6 +18,38 @@
 			{
 				"name": "TransactionDateTime",
 				"type": "DateTime"
+			},
+			{
+				"name": "TransactionType",
+				"type": "String"
+			},
+			{
+				"name": "PartnerName",
+				"type": "String"
+			},
+			{
+				"name": "PartnerAccountNumber",
+				"type": "String"
+			},
+			{
+				"name": "PartnerBillingPlan",
+				"type": "String"
+			},
+			{
+				"name": "PartnerPostageAccountPaymentMethod",
+				"type": "String"
+			},
+			{
+				"name": "PartnerIntegratorRatePlan",
+				"type": "String"
+			},
+			{
+				"name": "PartnerIntegratorRate",
+				"type": "Double"
+			},
+			{
+				"name": "PartnerPostagePaymentAccountBalance",
+				"type": "Double"
 			}
 		],
 		"typeProperties": {
