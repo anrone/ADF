@@ -9,7 +9,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Doterra_Invoice_Transactions_20180901.csv",
 				"folderPath": "sample/usps/usps",
 				"container": "adlsvscm"
 			},
